@@ -1,0 +1,8 @@
+D:\CsharpRepo\XmlDemo\XmlDemo\bin\Debug\XmlDemo.exe.config
+D:\CsharpRepo\XmlDemo\XmlDemo\bin\Debug\XmlDemo.exe
+D:\CsharpRepo\XmlDemo\XmlDemo\bin\Debug\XmlDemo.pdb
+D:\CsharpRepo\XmlDemo\XmlDemo\obj\Debug\XmlDemo.csproj.AssemblyReference.cache
+D:\CsharpRepo\XmlDemo\XmlDemo\obj\Debug\XmlDemo.csproj.SuggestedBindingRedirects.cache
+D:\CsharpRepo\XmlDemo\XmlDemo\obj\Debug\XmlDemo.csproj.CoreCompileInputs.cache
+D:\CsharpRepo\XmlDemo\XmlDemo\obj\Debug\XmlDemo.exe
+D:\CsharpRepo\XmlDemo\XmlDemo\obj\Debug\XmlDemo.pdb
