@@ -12,10 +12,11 @@ namespace XmlDemo
     {
         static void Main(string[] args)
         {
-            //SerilizeObjectToXmlString();
+            SerilizeObjectToXmlString();
             //SerializeObjectToXmlFile();
             //SerializeListToXmlFile();
-            DeserializeXmlFileToList();
+            //DeserializeXmlFileToList();
+            //DeserializeXmlFileToObject();
             Console.ReadKey();
         }
         private static void SerilizeObjectToXmlString()
@@ -35,6 +36,15 @@ namespace XmlDemo
                 xmlSerializer.Serialize(writer, member);
                 var xmlContent = writer.ToString();
                 Console.WriteLine(xmlContent);
+                DeserializeXmlStringToObject(xmlContent);
+            }
+        }
+        private static void DeserializeXmlStringToObject(string xmlString)
+        {
+            var xmlSerializer = new XmlSerializer(typeof(Member));
+            using(var reader = new StringReader(xmlString))
+            {
+                var member = (Member)xmlSerializer.Deserialize(reader);
             }
         }
         private static void SerializeObjectToXmlFile()
@@ -112,6 +122,15 @@ namespace XmlDemo
             using (var reader = new StreamReader(@"D:\CsharpRepo\XmlDemo\XmlDemo\xml-files\sample02.xml"))
             {
                 var members = (List<Member>) xmlSerializer.Deserialize(reader);
+
+            }
+        }
+        private static void DeserializeXmlFileToObject()
+        {
+            var xmlSerializer = new XmlSerializer(typeof(Member));
+            using (var reader = new StreamReader(@"D:\CsharpRepo\XmlDemo\XmlDemo\xml-files\sample01.xml"))
+            {
+                var members = (Member)xmlSerializer.Deserialize(reader);
 
             }
         }
