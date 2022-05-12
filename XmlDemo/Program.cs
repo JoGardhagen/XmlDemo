@@ -13,7 +13,9 @@ namespace XmlDemo
         static void Main(string[] args)
         {
             //SerilizeObjectToXmlString();
-            SerializeObjectToXmlFile();
+            //SerializeObjectToXmlFile();
+            //SerializeListToXmlFile();
+            DeserializeXmlFileToList();
             Console.ReadKey();
         }
         private static void SerilizeObjectToXmlString()
@@ -97,7 +99,21 @@ namespace XmlDemo
                 IsPlatinumMember = true
                 }
             };
-            var xmlSerializer = new XmlSerializer(typeof(Member));
+            var xmlSerializer = new XmlSerializer(typeof(List<Member>));
+            using (var writer = new StreamWriter(@"D:\CsharpRepo\XmlDemo\XmlDemo\xml-files\sample02.xml"))
+            {
+                xmlSerializer.Serialize(writer, memberList);
+            }
+            Console.WriteLine("Process Completed");
+        }
+        private static void DeserializeXmlFileToList()
+        {
+            var xmlSerializer = new XmlSerializer(typeof(List<Member>));
+            using (var reader = new StreamReader(@"D:\CsharpRepo\XmlDemo\XmlDemo\xml-files\sample02.xml"))
+            {
+                var members = (List<Member>) xmlSerializer.Deserialize(reader);
+
+            }
         }
     }
 }

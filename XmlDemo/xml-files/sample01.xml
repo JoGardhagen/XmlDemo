@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<MemberDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" PlatinumMember="false">
-  <MemberName>John</MemberName>
-  <MemberEmailAddress>john@gmail.com</MemberEmailAddress>
+<Member xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>John</Name>
+  <Email>john@gmail.com</Email>
   <Age>30</Age>
-</MemberDetails>
+  <JoiningDate>2022-05-12T19:17:50.4465672+02:00</JoiningDate>
+  <IsPlatinumMember>false</IsPlatinumMember>
+</Member>
