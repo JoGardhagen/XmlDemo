@@ -12,12 +12,25 @@ namespace XmlDemo
     {
         static void Main(string[] args)
         {
-            SerilizeObjectToXmlString();
+            //SerilizeObjectToXmlString();
             //SerializeObjectToXmlFile();
             //SerializeListToXmlFile();
             //DeserializeXmlFileToList();
             //DeserializeXmlFileToObject();
+            MakeXmlNestedUsersFile();
             Console.ReadKey();
+        }
+        private static void MakeXmlNestedUsersFile()
+        {
+            var xmlSerializer = new XmlSerializer(typeof(Users));
+            Users list = new Users { UserList = new[] { new User { Name = "Gurka" } } };
+            using (var writer = new StreamWriter(@"/Users/dotnet_repon/XmlDemo/XmlDemo/xml-files/sample03.xml"))
+            {
+                xmlSerializer.Serialize(writer, list);
+                Console.WriteLine("Done");
+            }
+            
+            
         }
         private static void SerilizeObjectToXmlString()
         {

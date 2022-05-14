@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{BBD0F733-7295-4693-B225-2AFC269B69DA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XmlDemo/User.cs">
+    <Files>
+      <File FileName="XmlDemo/Program.cs" Line="20" Column="38" />
+      <File FileName="XmlDemo/Member.cs" Line="6" Column="5" />
+      <File FileName="XmlDemo/User.cs" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XmlDemo" expanded="True">
+            <Node name="XmlDemo" expanded="True">
+              <Node name="User.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.XmlDemo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

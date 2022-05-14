@@ -3,6 +3,7 @@ using System.Xml.Serialization;
 
 namespace XmlDemo
 {
+    
     [Serializable]
     //[XmlRoot("MemberDetails")]
     public class Member
@@ -17,4 +18,5 @@ namespace XmlDemo
         //[XmlAttribute("PlatinumMember")]
         public bool IsPlatinumMember { get; set; }
     }
+   
 }
