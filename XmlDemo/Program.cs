@@ -24,7 +24,10 @@ namespace XmlDemo
         {
             var xmlSerializer = new XmlSerializer(typeof(Users));
             Users list = new Users { UserList = new[] { new User { Name = "Gurka" } } };
-            using (var writer = new StreamWriter(@"/Users/dotnet_repon/XmlDemo/XmlDemo/xml-files/sample03.xml"))
+            //For Mac
+            //using (var writer = new StreamWriter(@"/Users/dotnet_repon/XmlDemo/XmlDemo/xml-files/sample03.xml"))
+            //For Windows
+            using (var writer = new StreamWriter(@"D:\CsharpRepo\XmlDemo\XmlDemo\xml-files\sample04.xml"))
             {
                 xmlSerializer.Serialize(writer, list);
                 Console.WriteLine("Done");

@@ -1,11 +1,3 @@
-D:/CsharpRepo/XmlDemo/XmlDemo/bin/Debug/XmlDemo.exe.config
-D:/CsharpRepo/XmlDemo/XmlDemo/bin/Debug/XmlDemo.exe
-D:/CsharpRepo/XmlDemo/XmlDemo/bin/Debug/XmlDemo.pdb
-D:/CsharpRepo/XmlDemo/XmlDemo/obj/Debug/XmlDemo.csproj.AssemblyReference.cache
-D:/CsharpRepo/XmlDemo/XmlDemo/obj/Debug/XmlDemo.csproj.SuggestedBindingRedirects.cache
-D:/CsharpRepo/XmlDemo/XmlDemo/obj/Debug/XmlDemo.csproj.CoreCompileInputs.cache
-D:/CsharpRepo/XmlDemo/XmlDemo/obj/Debug/XmlDemo.exe
-D:/CsharpRepo/XmlDemo/XmlDemo/obj/Debug/XmlDemo.pdb
 /Users/dotnet_repon/XmlDemo/XmlDemo/bin/Debug/XmlDemo.exe.config
 /Users/dotnet_repon/XmlDemo/XmlDemo/bin/Debug/XmlDemo.exe
 /Users/dotnet_repon/XmlDemo/XmlDemo/bin/Debug/XmlDemo.pdb
@@ -13,3 +5,11 @@ D:/CsharpRepo/XmlDemo/XmlDemo/obj/Debug/XmlDemo.pdb
 /Users/dotnet_repon/XmlDemo/XmlDemo/obj/Debug/XmlDemo.csproj.CoreCompileInputs.cache
 /Users/dotnet_repon/XmlDemo/XmlDemo/obj/Debug/XmlDemo.exe
 /Users/dotnet_repon/XmlDemo/XmlDemo/obj/Debug/XmlDemo.pdb
+D:\CsharpRepo\xmlDemo\XmlDemo\bin\Debug\XmlDemo.exe.config
+D:\CsharpRepo\xmlDemo\XmlDemo\bin\Debug\XmlDemo.exe
+D:\CsharpRepo\xmlDemo\XmlDemo\bin\Debug\XmlDemo.pdb
+D:\CsharpRepo\xmlDemo\XmlDemo\obj\Debug\XmlDemo.csproj.AssemblyReference.cache
+D:\CsharpRepo\xmlDemo\XmlDemo\obj\Debug\XmlDemo.csproj.SuggestedBindingRedirects.cache
+D:\CsharpRepo\xmlDemo\XmlDemo\obj\Debug\XmlDemo.csproj.CoreCompileInputs.cache
+D:\CsharpRepo\xmlDemo\XmlDemo\obj\Debug\XmlDemo.exe
+D:\CsharpRepo\xmlDemo\XmlDemo\obj\Debug\XmlDemo.pdb
